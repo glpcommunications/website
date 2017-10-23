@@ -1,0 +1,22 @@
+<% if (item.image) { %>
+<div class="background-img" style="background-image: url('<%- url_for(item.image) %>')"></div>
+<% } %>
+<div class="row">
+  <% if (item.align == 'left') { %>
+  <div class="col-6 <%- item.image ? 'main-block' : '' %>">
+  <% } else if (item.align == 'right') { %>
+  <div class="col-6 offset-6 <%- item.image ? 'main-block' : '' %>">
+  <% } else { %>
+  <div class="col-10 offset-1 <%- item.image ? 'main-block' : '' %>">
+  <% } %>
+
+    <div class="post-page text-center mb-4">
+      <h3><%- item.title || "Untitled" %></h3>
+    </div>
+
+    <div class="page-content">
+      <%- item.content %>
+    </div>
+
+  </div>
+</div>

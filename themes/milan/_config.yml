@@ -1,0 +1,37 @@
+# Header
+menu:
+  Home: /
+  Drive-Thru: /drive-thru
+  Music: /music
+  TV: /tv
+  Security: /security
+  About: /about
+  Contact: /contact
+header_text: Connecting you to your customers.
+button_text: Browse our products
+header_image: images/cover4.jpg
+
+# Favicon
+favicon_url: images/favicon.ico
+
+# Default Image for Posts
+default_image: images/default.jpg
+
+# Snipcart API Key: https://app.snipcart.com/register
+snipcart_api_key: PASTE_YOUR_KEY_HERE
+enable_snipcart: false
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+email_url:
+twitter_url: https://twitter.com/?lang=en
+facebook_url: https://www.facebook.com/
+instagram_url: https://www.instagram.com/
+linkedin_url:
+dribbble_url:
+github_url:
+googleplus_url:
+behance_url:
+fivehundredpx_url:

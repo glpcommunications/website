@@ -1,0 +1,15 @@
+<div class="col-lg-4 col-md-6 col-12 mb-5">
+  <div class="image-box">
+    <div class="post-image">
+      <a href="<%- url_for(item.path) %>">
+        <img class="img-fluid" src="<%- url_for(item.image) || url_for(theme.default_image) %>" alt="<%- item.name || "Untitled" %>">
+      </a>
+    </div>
+  </div>
+  <div class="post-details text-center mt-3">
+    <a href="<%- url_for(item.path) %>"><%- item.name || "Untitled" %></a>
+    <% if (item.price) { %>
+    <div class="price">$<%= item.price %></div>
+    <% } %>
+  </div>
+</div>
