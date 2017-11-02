@@ -321,7 +321,7 @@ header {
 	background-size: cover;
 	background-color: rgba(0,0,0,.5);
     background-blend-mode: multiply;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -338,7 +338,6 @@ header {
 }
 
 .main-block {
-	position: fixed;
 	left: 0;
 	right: 0;
 	z-index: 9999;

@@ -1,7 +1,7 @@
 ---
 title: Drive-Thru
 date: 2017-10-21 15:03:04
-image: /images/drivethru2.jpg
+image: /images/drivethru3.jpg
 categrories:
   - Drive-Thru
 ---
