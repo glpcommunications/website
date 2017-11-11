@@ -315,12 +315,10 @@ header {
 /* Full Page
 ---------------------------------------------------------------------- */
 
-
 .background-img {
-	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: rgba(0,0,0,.5);
-    background-blend-mode: multiply;
+	background-position: center;
+	background-blend-mode: multiply;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -329,23 +327,139 @@ header {
 	display: block;
 	width: 100vw;
 	height: 100vh;
-
-	/*-webkit-filter: blur(5px);*/
-	/*-moz-filter: blur(5px);*/
-	/*-o-filter: blur(5px);*/
-	/*-ms-filter: blur(5px);*/
-	/*filter: blur(5px);*/
 }
 
 .main-block {
 	left: 0;
 	right: 0;
 	z-index: 9999;
-	/*height: calc(100vh - 48px - 51px - 16px); /* viewport - container margin - nav-bar - wtf?  */
 	color: lightgrey;
-	padding-top: 150px;
+	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+.container {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+header {
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xsmall/cover5.jpg");
+}
+
+.drive-thru-bg {
+	background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xsmall/drivethru3.jpg");
+}
+
+.music-bg {
+	background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xsmall/music3.jpg");
+}
+
+.cctv-bg {
+	background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xsmall/cctv1.jpg");
+}
+
+.tv-bg {
+	background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xsmall/tv1.jpg");
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	header {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_small/cover5.jpg");
+	}
+	.drive-thru-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_small/drivethru3.jpg");
+	}
+
+	.music-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_small/music3.jpg");
+	}
+
+	.cctv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_small/cctv1.jpg");
+	}
+
+	.tv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_small/tv1.jpg");
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	header {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_medium/cover5.jpg");
+	}
+	.main-block {
+		padding-top: 75px;
+	}
+	.drive-thru-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_medium/drivethru3.jpg");
+	}
+
+	.music-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_medium/music3.jpg");
+	}
+
+	.cctv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_medium/cctv1.jpg");
+	}
+
+	.tv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_medium/tv1.jpg");
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	header {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_large/cover5.jpg");
+	}
+	.drive-thru-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_large/drivethru3.jpg");
+	}
+
+	.music-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_large/music3.jpg");
+	}
+
+	.cctv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_large/cctv1.jpg");
+	}
+
+	.tv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_large/tv1.jpg");
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	header {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xlarge/cover5.jpg");
+	}
+	.drive-thru-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xlarge/drivethru3.jpg");
+	}
+
+	.music-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xlarge/music3.jpg");
+	}
+
+	.cctv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xlarge/cctv1.jpg");
+	}
+
+	.tv-bg {
+		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xlarge/tv1.jpg");
+	}
 }
 
 /* Footer

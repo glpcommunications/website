@@ -1,13 +1,28 @@
-<% if (item.image) { %>
-<div class="background-img" style="background-image: url('<%- url_for(item.image) %>')"></div>
+<% if (item.bg_class) { %>
+<div class="background-img <%- item.bg_class %>"></div>
+<!--
+<div class="background-img">
+  <img
+    sizes="(max-width: 576px) 576px,
+    (max-width: 768px) 768px,
+    (max-width: 992px) 992px,
+    (max-width: 1200px) 1200px"
+    src="https://res.cloudinar.com/glp/image/upload/t_bg_xsmall/<%- item.image %>"
+    srcset="https://res.cloudinary.com/glp/image/upload/t_bg_small/<%- item.image %> 576w,
+    https://res.cloudinary.com/glp/image/upload/t_bg_medium/<%- item.image %> 768w,
+    https://res.cloudinary.com/glp/image/upload/t_bg_large/<%- item.image %> 992w,
+    https://res.cloudinary.com/glp/image/upload/t_bg_xlarge/<%- item.image %> 1200w"
+    alt="background-image" />
+</div>
+-->
 <% } %>
 <div class="row">
   <% if (item.align == 'left') { %>
-  <div class="col-12 col-md-6 <%- item.image ? 'main-block' : '' %>">
+  <div class="col-12 col-md-6 <%- item.bg_class ? 'main-block' : '' %>">
   <% } else if (item.align == 'right') { %>
-  <div class="col-12 col-md-6 offset-md-6 <%- item.image ? 'main-block' : '' %>">
+  <div class="col-12 col-md-6 offset-md-6 <%- item.bg_class ? 'main-block' : '' %>">
   <% } else { %>
-  <div class="col-12 col-md-10 offset-md-1 <%- item.image ? 'main-block' : '' %>">
+  <div class="col-12 col-md-10 offset-md-1 col-xl-12 <%- item.bg_class ? 'main-block' : '' %>">
   <% } %>
 
     <div class="post-page text-center mb-4">
