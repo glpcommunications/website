@@ -5,4 +5,7 @@ bg_class: drive-thru-bg
 categories:
   - Drive-Thru
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit ipsum nulla, et interdum ex lobortis gravida. Maecenas finibus tincidunt libero. Nunc eu arcu sem. Donec at ligula ex. Aliquam lacus odio, ullamcorper at porttitor sit amet, commodo eu felis. Etiam finibus nibh et augue molestie dignissim. Sed ut ultricies nisl, lacinia lacinia elit. Etiam venenatis id eros congue egestas. Vivamus nec risus sapien. Ut id ipsum imperdiet, ornare dolor vel, malesuada felis. Suspendisse potenti. Duis ullamcorper efficitur diam, a sodales justo aliquam ac. Quisque nec efficitur quam, vitae egestas libero. Curabitur quis purus at nisi viverra egestas.
+Your drive-thru is the life-blood of your quick serve restaurant. Moving satisfied customers through efficiently is key to the success of your business. GLP can help ensure that success with our state of the art drive thru systems. 
+
+### Drive-Thru Headsets
+Asking your drive-thru customers to repeat themselves because of poor sound quality can lead to delays, incorrect orders and mounting frustrations. Protect your reputation for customer service, while improving operational efficiency, with the crystal clear sound and rugged reliability of 3M™ Drive-Thru Headset and Intercom Systems. All are built to ensure years of dependable service, to help minimize downtime and reduce your costs.

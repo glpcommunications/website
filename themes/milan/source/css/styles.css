@@ -126,6 +126,10 @@ header {
 	}
 }
 
+.carousel-item .row {
+	width: 100%;
+}
+
 /* Title & Navigation
 —————————————————————————————————————————————————————————————————————— */
 
@@ -370,7 +374,7 @@ header {
 	background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_xsmall/tv1.jpg");
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones 576px and up) */
 @media (min-width: 576px) {
 	header {
 		background-image: url("https://res.cloudinary.com/glp/image/upload/t_bg_small/cover5.jpg");

@@ -1,8 +1,90 @@
 <header>
   <div class="container-fluid py-5 text-center">
     <article>
-      <h1 class="intro"><%= theme.header_text %></h1>
-			<a href="#shop" class="header-link"><%= theme.button_text %></a>
+      <h1 class="intro">
+        <%= theme.header_text %>
+      </h1>
+      <!--<a href="#shop" class="header-link"><%= theme.button_text %></a>-->
     </article>
   </div>
 </header>
+<div class="container-fluid py-5 text-center">
+  <h3>Our Clients Include</h3>
+  <div class="row logos">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div id="clients" class="carousel slide" data-ride="carousel">
+
+        <!-- Carousel items -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-4">
+                <a href="#" class="client-logo">
+                  <img src="https://res.cloudinary.com/glp/image/upload/t_logo/loves.png" alt="Love's Travel Stops Logo" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-sm-4">
+                  <a href="#" class="client-logo">
+                    <img src="https://res.cloudinary.com/glp/image/upload/t_logo/bjs.jpg" alt="BJ's Restaurant and Brewhouse Logo" class="img-fluid">
+                  </a>
+                </div>
+              <div class="col-sm-4">
+                  <a href="#" class="client-logo">
+                    <img src="https://res.cloudinary.com/glp/image/upload/t_logo/sonic.png" alt="Sonic Drive In Logo" class="img-fluid">
+                  </a>
+                </div>
+            </div>
+            <!--.row-->
+          </div>
+          <!--.carousel-item-->
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-4">
+                <a href="#" class="client-logo">
+                  <img src="https://res.cloudinary.com/glp/image/upload/t_logo/old-chicago.png" alt="Old Chicago Logo" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-sm-4">
+                  <a href="#" class="client-logo">
+                    <img src="https://res.cloudinary.com/glp/image/upload/t_logo/louies.jpg" alt="Louie's Bar and Grill Logo" class="img-fluid">
+                  </a>
+                </div>
+              
+              <div class="col-sm-4">
+                  <a href="#" class="client-logo">
+                    <img src="https://res.cloudinary.com/glp/image/upload/t_logo/mcnellies.png" alt="McNellie's Public House Logo" class="img-fluid">
+                  </a>
+                </div>
+            </div>
+            <!--.row-->
+          </div>
+          <!--.carousel-item-->
+
+          <!--
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-4">
+                <a href="#" class="client-logo">
+                  <img src="<%- url_for('images/loves.png') %>" alt="Love's Travel Stops Logo" style="height:80px;">
+                </a>
+              </div>
+              <div class="col-sm-4">
+                <a href="#" class="client-logo">
+                  <img src="<%- url_for('images/mcnellies.png') %>" alt="McNellie's Public House Logo" style="height:80px;">
+                </a>
+              </div>
+              <div class="col-sm-4">
+                <a href="#" class="client-logo">
+                  <img src="<%- url_for('images/louies.jpg') %>" alt="Louie's Bar and Grill Logo" style="height:80px;">
+                </a>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
