@@ -26,9 +26,9 @@ google_analytics:
 
 # Social Accounts
 email_url:
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
-instagram_url: https://www.instagram.com/
+twitter_url:
+facebook_url:
+instagram_url:
 linkedin_url:
 dribbble_url:
 github_url:
