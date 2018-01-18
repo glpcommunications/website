@@ -3,7 +3,7 @@ title: GLP Communications
 image: ''
 date: 2017-10-22 23:50:50
 ---
-Our company has been in business since 1965. We began as a division of another company and moved out as a separate company in 1986.
+Our company has been in business since 1986.  We are a family owned business that takes pride in the work and services we provide.
 
 We strive to provide our customers with high quality communications equipment, price value, consistent performance, and exceptional service by people who care.
 
