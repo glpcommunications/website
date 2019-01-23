@@ -26,6 +26,7 @@ date: 2017-10-23 07:32:18
     <label for="message">Message</label>
     <textarea class="form-control" id="message" rows="3" name="message"></textarea>
   </div>
+  <div data-netlify-recaptcha="true"></div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 {% endraw %}
